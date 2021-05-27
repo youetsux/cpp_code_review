@@ -10,7 +10,6 @@ Status::Status()
 	def = 0;
 }
 
-
 bool Status::SetLv(int i)
 {
 	if (i >= 100) {

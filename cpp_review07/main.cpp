@@ -17,6 +17,5 @@ int main() {
 		std::cout << "UŒ‚—Í  " << st.GetAtk() << std::endl;
 		std::cout << "–hŒä—Í  " << st.GetDef() << std::endl;
 	}
-
 	std::cout << "ƒvƒƒOƒ‰ƒ€‚ğI—¹‚µ‚Ü‚·" << std::endl;
 }
