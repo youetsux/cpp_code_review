@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{586204b5-95fc-4f8f-81e5-3162c2510442}</ProjectGuid>
-    <RootNamespace>cppreview09</RootNamespace>
+    <ProjectGuid>{be5e7476-adf5-48be-b7bd-cf6cdfedec99}</ProjectGuid>
+    <RootNamespace>cppreview10</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,11 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="sample.cpp" />
+    <ClInclude Include="Circle.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="sample.h" />
+    <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

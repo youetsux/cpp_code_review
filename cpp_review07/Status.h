@@ -1,4 +1,5 @@
 #pragma once
+
 class Status
 {
 	int lv,hp,atk,def;
@@ -10,4 +11,3 @@ public:
 	int GetAtk();
 	int GetDef();
 };
-

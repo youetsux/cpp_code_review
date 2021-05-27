@@ -1,19 +1,23 @@
+#include "sample.h"
 #include <iostream>
-#include "Sample.h"
 
 void Function();
 
-int main() {
-	std::cout << "Now Starting Program" << endl;
+int main()
+{
+	std::cout << "Now Starting Program" << std::endl;
 	Function();
-	std::cout << "Now Finishing Program" << endl;
+	std::cout << "Now Finishing Program" << std::endl;
 
 	return 0;
 }
 
+
 void Function()
 {
-	std::cout << "Function (Function()) has called" << endl;
+	std::cout << "Function has called" << std::endl;
+
 	Sample instSample;
+
 	instSample.memberFunc();
 }
